@@ -104,8 +104,9 @@ public class UserController : ControllerBase
     // Métodos de validación
     private bool IsValidEmail(string email)
     {
-        // Implementar validación de correo electrónico (puedes usar una expresión regular)
-        return !string.IsNullOrWhiteSpace(email) && email.Contains("@");
+        // Expresión regular para validar el formato del correo electrónico
+        string emailPattern = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+        return !string.IsNullOrWhiteSpace(email) && Regex.IsMatch(email, emailPattern);
     }
 
     private bool IsValidGender(string gender)
