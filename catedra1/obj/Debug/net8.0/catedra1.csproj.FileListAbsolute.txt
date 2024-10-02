@@ -1,0 +1,8 @@
+C:\Users\Alumno\Desktop\Catedra1WM\catedra1\obj\Debug\net8.0\catedra1.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\Catedra1WM\catedra1\obj\Debug\net8.0\catedra1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\Catedra1WM\catedra1\obj\Debug\net8.0\catedra1.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\Catedra1WM\catedra1\obj\Debug\net8.0\catedra1.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\Catedra1WM\catedra1\obj\Debug\net8.0\catedra1.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\Catedra1WM\catedra1\obj\Debug\net8.0\catedra1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Alumno\Desktop\Catedra1WM\catedra1\obj\Debug\net8.0\catedra1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alumno\Desktop\Catedra1WM\catedra1\obj\Debug\net8.0\catedra1.sourcelink.json
