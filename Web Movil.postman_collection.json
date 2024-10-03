@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "c9ca423a-f8d6-425a-aca0-e0721740ac9c",
+		"name": "Web Movil",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34634430"
+	},
+	"item": [
+		{
+			"name": "CrearUsuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RUT\": \"12345678-9\",\r\n    \"Nombre\": \"Juan Pérez\",\r\n    \"Correo\": \"juan.perez@example.com\",\r\n    \"Genero\": \"masculino\",\r\n    \"FechaNacimiento\": \"1990-01-01\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:5038/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5038",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerUsuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5038/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5038",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditarUsuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"RUT\": \"12345678-9\",\r\n    \"Nombre\": \"Juan Pérez Actualizado\",\r\n    \"Correo\": \"juan.perez.updated@example.com\",\r\n    \"Genero\": \"masculino\",\r\n    \"FechaNacimiento\": \"1990-01-01\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:5038/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5038",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EliminarUsuario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5038/user/{id}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5038",
+					"path": [
+						"user",
+						"{id}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
